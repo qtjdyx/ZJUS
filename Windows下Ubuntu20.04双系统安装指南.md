@@ -1,5 +1,5 @@
 # Windows下Ubuntu20.04双系统安装指南
-本文档是Ubuntu双系统的操作指南。在电脑存在Windows情况下安装Ubuntu20.04作为第二操作系统。    
+本文档是Ubuntu双系统的操作指南。在电脑存在Windows情况下安装Ubuntu20.04作为第二操作系统     
 本文参考"从零制作自主空中机器人"课程     
 github链接: https://github.com/ZJU-FAST-Lab/Fast-Drone-250     
 B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
@@ -25,14 +25,30 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 写入硬盘镜像
   
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/73ffea14-5cef-4ad2-bbe7-56efcfd19da6" width="25%">
-- xxx
+- 选择U盘，等待写入  
 
-![image](https://github.com/qtjdyx/ZJUS/assets/116424162/c0b82e31-d711-4c53-90ba-8076e60e4d50)
-
-
-
-
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/b027080d-b434-494d-9b17-5de1086984c1" width="25%">
 ## Step3: 释放磁盘空间
+- 以管理员权限进入进入控制面板-系统和安全-创建并格式化硬盘分区
+
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/ac7c0c0f-0d70-495d-8226-2b50b0c937c8" width="75%">
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/82828ae2-a215-471c-9e9c-08c7239459e6" width="75%">
+- 选择你要分割的分区（有80G以上空闲的分区），右键，选择压缩卷
+
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/d7ec9268-7d6a-4a03-b27f-87be3fb2391f" width="50%">
+- 输入要压缩的空间量（单位为MB），该大小为你希望分给Ubuntu系统的大小（图中用2000MB示意）
+
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/7cbfe86b-2b96-4c04-bdf2-50ea2ab4a065" width="50%">
+- 此时，在你压缩的磁盘后将会出现一块未分配的磁盘分区，大小为你输入的压缩空间量
+
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/b38fc73d-8788-4e83-ac7d-63b7a9efbdd4" width="50%">
+
+
+
+
+
+
+
 ## Step3: 重启电脑进入BIOS界面
 ## Step4: 插入Ubuntu启动盘并用U盘启动
 ## Step5: 安装Ubuntu操作系统
