@@ -29,7 +29,7 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 选择U盘，等待写入  
 
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/b027080d-b434-494d-9b17-5de1086984c1" width="25%">
-## Step3: 释放磁盘空间
+## Step4: 释放磁盘空间
 - 以管理员权限进入进入控制面板-系统和安全-创建并格式化硬盘分区
 
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/ac7c0c0f-0d70-495d-8226-2b50b0c937c8" width="75%">
@@ -43,7 +43,7 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 此时，在你压缩的磁盘后将会出现一块未分配的磁盘分区，大小为你输入的压缩空间量
 
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/b38fc73d-8788-4e83-ac7d-63b7a9efbdd4" width="50%">
-## Step3: 重启电脑进入BIOS界面，设置启动选项
+## Step5: 重启电脑进入BIOS界面，设置启动选项
 - 首先查询你的电脑进入BIOS界面的方式
 
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/131d8996-4b39-4fd8-b8d3-e811553a48b9" width="50%">
@@ -59,7 +59,7 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 将U盘启动上移至第一启动选项，保存退出
 - 备注：这一步非必须，视情况可以与上一步合并
 
-## Step4: 插入Ubuntu启动盘并用U盘启动
+## Step6: 插入Ubuntu启动盘并用U盘启动
 - 确认你的笔记本在开机前处在以下状态
   1. 在磁盘中拥有一块大小足够的未分配空间
   2. 电脑的安全启动选项已经关闭，否则会禁止你从外部启动
@@ -70,11 +70,12 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 
  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/6b5b5b5d-85f1-4a33-9854-beaed9dd5836" width="50%"> 
  
-## Step5: 安装Ubuntu操作系统
+## Step7: 安装Ubuntu操作系统
 - 最好选择英文安装，想用中文也行
 - 选择键盘布局
 - 不连接到无线网
-- 选择正常安装 如有Nvidia独显或者一些特殊的网卡，可以尝试选择`为图形或无线硬件，以及其他媒体格式安装第三方软件`
+- 选择正常安装 如有Nvidia独显或者一些特殊的网卡，可以尝试选择
+  `为图形或无线硬件，以及其他媒体格式安装第三方软件`
 
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/77897dad-de3a-4434-9145-ed31490ede38" width="50%">
 
@@ -86,5 +87,26 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 视频中选择新建的原因是NUC是新机，固态硬盘上没有任何分区信息，才需要新建分区表
 - 在磁盘的分区表中，应该有一块空闲区域，即为那块未分配的磁盘空间
 - 选中空闲，点击`+`
+  
 <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3f24a360-2110-40fc-a1d6-b0bccaba2614f" width="50%">
+- 设置EFI系统分区 EFI system partition，格式为主分区，默认空间起始位置，大小512MB
+- 选中空闲，点击`+`
+- 设置交换空间swapping space，格式为逻辑分区，默认空间起始位置，大小为电脑内存两倍，8GRAM->16G,16GRAM->20G-30G左右
+- 选中空闲，点击`+`
+- 将剩下的空间挂载在主分区`/`下,格式为主分区，默认空间起始位置，大小所有空闲，用于Ext4日志文件系统
 
+<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3974c486-6fd9-46aa-8bb5-c25d883ea2e7" width="25%">
+<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/88137925-fa91-4f7a-8da2-37a6896fbde7" width="25%">
+<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/cfc49587-3155-406d-9de1-2519a8425c71" width="25%">
+
+- 选择时区
+- 创建用户名
+在ubuntu命令行中，每一行最开始的即为user@PC:(用户名@计算机名:)
+密码可以设置一位，方便后续命令行中sudo的时候输入密码
+- 安装完成
+- 重启
+## Step8: 设置默认启动选项
+- 进入BIOS-启动项
+- 选自Windows或者Ubuntu作为默认启动项
+- 以后电脑开机时会弹出启动项选择界面，未选择则按照默认启动项启动。
+  
