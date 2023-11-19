@@ -68,7 +68,7 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
   5. 电脑处在关机状态
 - 插入启动盘并从U盘启动，选择`install ubuntu`
 
- <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/6b5b5b5d-85f1-4a33-9854-beaed9dd5836" width="50%"> 
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/6b5b5b5d-85f1-4a33-9854-beaed9dd5836" width="50%"> 
  
 ## Step7: 安装Ubuntu操作系统
 - 最好选择英文安装，想用中文也行
@@ -81,14 +81,14 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 
 - 选择其他安装选型！！一定**不能**选择清除整个磁盘！！
 
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/44ffb729-469a-499e-a29a-919c541a8c2f" width="50%">
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/44ffb729-469a-499e-a29a-919c541a8c2f" width="50%">
 
 - 这时候，界面上将会显示你当前磁盘的分区表！！一定**不能**选择新建分区表！！否则将会格式化你的磁盘
 - 视频中选择新建的原因是NUC是新机，固态硬盘上没有任何分区信息，才需要新建分区表
 - 在磁盘的分区表中，应该有一块空闲区域，即为那块未分配的磁盘空间
 - 选中空闲，点击`+`
   
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3f24a360-2110-40fc-a1d6-b0bccaba2614f" width="50%">
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3f24a360-2110-40fc-a1d6-b0bccaba2614f" width="50%">
    
 - 设置EFI系统分区 EFI system partition，格式为主分区，默认空间起始位置，大小512MB
 - 选中空闲，点击`+`
@@ -96,14 +96,14 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 选中空闲，点击`+`
 - 将剩下的空间挂载在主分区`/`下,格式为主分区，默认空间起始位置，大小所有空闲，用于Ext4日志文件系统       
 
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3974c486-6fd9-46aa-8bb5-c25d883ea2e7" width="27%">
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/88137925-fa91-4f7a-8da2-37a6896fbde7" width="29%">
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/cfc49587-3155-406d-9de1-2519a8425c71" width="26%">
+ <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3974c486-6fd9-46aa-8bb5-c25d883ea2e7" width="27%">
+ <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/88137925-fa91-4f7a-8da2-37a6896fbde7" width="29%">
+ <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/cfc49587-3155-406d-9de1-2519a8425c71" width="26%">
 
 - 选择时区
 - 创建用户名
-在ubuntu命令行中，每一行最开始的即为user@PC:(用户名@计算机名:)
-密码可以设置一位，方便后续命令行中sudo的时候输入密码
+- 在ubuntu命令行中，每一行最开始的即为user@PC:(用户名@计算机名:)
+- 密码可以设置一位，方便后续命令行中sudo的时候输入密码
 - 安装完成
 - 重启
 ## Step8: 设置默认启动选项
