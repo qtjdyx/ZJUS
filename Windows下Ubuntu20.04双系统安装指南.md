@@ -49,10 +49,12 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 重启电脑，开机同时连续按F2（你的电脑进入BIOS界面的方式），当电脑品牌徽标出现后，电脑会进入BIOS界面/UEFI界面
 
   <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/9a4c365c-c46b-4404-b77e-61809acf0b6f" width="50%">
-- 进入Advance模式下，找到安全启动，关闭安全启动项     
+- 进入Advance模式下，找到Security下的安全启动，关闭安全启动项     
   `Security（安全）`—`Secure Boot（安全启动）`—`Disabled（关闭）`     
-    <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/d1cca790-5420-4763-bd86-e193eec5acfc" width="50%">
-  
+  <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/d1cca790-5420-4763-bd86-e193eec5acfc" width="50%"
+- 有时要在启动项
+- 重启电脑，插上启动盘，进入BIOS界面，此时在开机启动项上会出现两个以上启动选项，一个是默认启动项`Windows boot manager`,一个是
+
 ## Step4: 插入Ubuntu启动盘并用U盘启动
 - 
 ## Step5: 安装Ubuntu操作系统
