@@ -1,4 +1,4 @@
-# Windows下Ubuntu20.04双系统系统安装指南
+# Windows下Ubuntu20.04双系统安装指南
 本文档是Ubuntu双系统的操作指南。在电脑存在Windows情况下安装Ubuntu20.04作为第二操作系统。    
 本文参考"从零制作自主空中机器人"课程     
 github链接: https://github.com/ZJU-FAST-Lab/Fast-Drone-250     
