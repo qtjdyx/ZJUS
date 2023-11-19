@@ -89,15 +89,16 @@ B站视频链接: https://www.bilibili.com/video/BV1WZ4y167me
 - 选中空闲，点击`+`
   
 <img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3f24a360-2110-40fc-a1d6-b0bccaba2614f" width="50%">
+   
 - 设置EFI系统分区 EFI system partition，格式为主分区，默认空间起始位置，大小512MB
 - 选中空闲，点击`+`
 - 设置交换空间swapping space，格式为逻辑分区，默认空间起始位置，大小为电脑内存两倍，8GRAM->16G,16GRAM->20G-30G左右
 - 选中空闲，点击`+`
-- 将剩下的空间挂载在主分区`/`下,格式为主分区，默认空间起始位置，大小所有空闲，用于Ext4日志文件系统     
+- 将剩下的空间挂载在主分区`/`下,格式为主分区，默认空间起始位置，大小所有空闲，用于Ext4日志文件系统       
 
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3974c486-6fd9-46aa-8bb5-c25d883ea2e7" width="25%">
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/88137925-fa91-4f7a-8da2-37a6896fbde7" width="25%">
-<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/cfc49587-3155-406d-9de1-2519a8425c71" width="25%">
+<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/3974c486-6fd9-46aa-8bb5-c25d883ea2e7" width="27%">
+<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/88137925-fa91-4f7a-8da2-37a6896fbde7" width="29%">
+<img src="https://github.com/qtjdyx/ZJUS/assets/116424162/cfc49587-3155-406d-9de1-2519a8425c71" width="26%">
 
 - 选择时区
 - 创建用户名
