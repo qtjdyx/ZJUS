@@ -1,4 +1,4 @@
-![image](https://github.com/qtjdyx/ZJUS/assets/116424162/bdfe0e78-512e-455e-b618-0efb00b67610)![image](https://github.com/qtjdyx/ZJUS/assets/116424162/bca0c546-59dd-490e-930e-ec717a34a1d6)![image](https://github.com/qtjdyx/ZJUS/assets/116424162/2af35333-cc29-4bfc-9030-30d131936d75)# Windows下Ubuntu20.04双系统安装指南
+# Windows下Ubuntu20.04双系统安装指南
 本文档是Ubuntu双系统的操作指南。在电脑存在Windows情况下安装Ubuntu20.04作为第二操作系统。    
 本文参考"从零制作自主空中机器人"课程     
 github链接: https://github.com/ZJU-FAST-Lab/Fast-Drone-250     
